@@ -1,0 +1,11 @@
+body {
+  background: rgb(19, 18, 24);
+}
+
+.glowing-text {
+  -webkit-text-stroke: 2px var(--color);
+  text-shadow: var(--color) 0 0 15px;
+  color: transparent;
+  font-family: Arial, 'Segeo UI';
+  font-size: 65px;
+}
